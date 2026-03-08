@@ -20,6 +20,10 @@ Build an interactive algorithm-learning app that helps us:
 	- Draw walls
 	- Animate visited cells
 	- Animate shortest path
+- ✅ Bubble Sort (Array Visualizer)
+	- Generate random arrays
+	- Animate comparisons and swaps
+	- Highlight sorted portion/progress
 
 ### In Progress Direction
 
@@ -38,7 +42,7 @@ We are expanding this project in phases so it remains clean and easy to learn fr
 
 ## Phase 2: Sorting (Array Visualizer)
 
-- ⏳ Bubble Sort
+- ✅ Bubble Sort
 - ⏳ Selection Sort
 - ⏳ Insertion Sort
 - ⏳ Merge Sort
@@ -71,6 +75,10 @@ We are expanding this project in phases so it remains clean and easy to learn fr
 
 ```bash
 python pathfinding.py
+```
+
+```bash
+python sorting.py
 ```
 
 ## Notes
