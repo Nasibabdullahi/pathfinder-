@@ -3,7 +3,7 @@ import tkinter as tk
 from settings import COLOR_BG
 
 
-def build_sorting_ui(app):
+def build_heap_ui(app):
     toolbar = tk.Frame(app.root, bg=COLOR_BG, pady=8)
     toolbar.pack(fill="x")
 
@@ -32,14 +32,14 @@ def build_sorting_ui(app):
 
     app.btn_sort = tk.Button(
         toolbar,
-        text="RUN BUBBLE SORT",
+        text="RUN HEAP SORT",
         font=("Courier", 10, "bold"),
         fg="white",
         bg="#533483",
         relief="flat",
         padx=12,
         pady=4,
-        command=app.bubble_sort,
+        command=app.heap_sort,
     )
     app.btn_sort.pack(side="left", padx=6)
 
@@ -52,7 +52,7 @@ def build_sorting_ui(app):
     )
     app.canvas.pack()
 
-    app.status_var = tk.StringVar(value="Generate an array, then run Bubble Sort.")
+    app.status_var = tk.StringVar(value="Generate an array, then run Heap Sort.")
     tk.Label(
         app.root,
         textvariable=app.status_var,

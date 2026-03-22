@@ -1,4 +1,4 @@
-from sorting_app import SortingVisualizer
+from heap_sort_app import SortingVisualizer
 
 
 def main():
@@ -8,3 +8,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

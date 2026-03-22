@@ -1,7 +1,7 @@
 import random
 import tkinter as tk
 
-from bubble_sort_logic import run_bubble_sort
+from heap_sort_logic import run_heap_sort
 from settings import (
     COLOR_BG,
     COLOR_GRID_LINE,
@@ -12,7 +12,7 @@ from settings import (
     SORT_MAX_VALUE,
     SORT_MIN_VALUE,
 )
-from ui_builder_sorting import build_sorting_ui
+from ui_builder_heap import build_heap_ui
 
 
 class SortingVisualizer:
@@ -21,14 +21,14 @@ class SortingVisualizer:
         self.running = False
 
         self.root = tk.Tk()
-        self.root.title("DSA Visualizer - Bubble Sort")
+        self.root.title("DSA Visualizer - Heap Sort")
         self.root.configure(bg=COLOR_BG)
         self.root.resizable(False, False)
 
         self.canvas_w = SORT_CANVAS_W
         self.canvas_h = SORT_CANVAS_H
 
-        build_sorting_ui(self)
+        build_heap_ui(self)
         self.generate_values()
 
     def generate_values(self):
@@ -36,7 +36,7 @@ class SortingVisualizer:
             return
         self.values = [random.randint(SORT_MIN_VALUE, SORT_MAX_VALUE) for _ in range(SORT_BAR_COUNT)]
         self.draw_bars()
-        self.status_var.set("New array generated. Click RUN BUBBLE SORT.")
+        self.status_var.set("New array generated. Click RUN HEAP SORT.")
 
     def draw_bars(self, highlight=None, sorted_start=None, sorted_color=None):
         highlight = highlight or {}
@@ -63,8 +63,8 @@ class SortingVisualizer:
 
             self.canvas.create_rectangle(x1, y1, x2, y2, fill=color, outline=COLOR_GRID_LINE)
 
-    def bubble_sort(self):
-        run_bubble_sort(self)
+    def heap_sort(self):
+        run_heap_sort(self)
 
     def run(self):
         self.root.mainloop()

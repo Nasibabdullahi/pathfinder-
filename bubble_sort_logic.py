@@ -46,3 +46,4 @@ def run_bubble_sort(app):
     app.running = False
     app.btn_sort.config(state="normal")
     app.btn_generate.config(state="normal")
+

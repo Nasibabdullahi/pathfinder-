@@ -47,7 +47,7 @@ We are expanding this project in phases so it remains clean and easy to learn fr
 - ⏳ Insertion Sort
 - ⏳ Merge Sort
 - ⏳ Quick Sort
-- ⏳ Heap Sort
+- ⏳ Heap Sort(done)
 
 ## Phase 3: Searching (Array)
 
@@ -80,6 +80,8 @@ python pathfinding.py
 ```bash
 python sorting.py
 ```
+   ```bash(heap sort)
+    python  hsorting.py
 
 ## Notes
 
