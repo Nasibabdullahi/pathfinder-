@@ -24,6 +24,15 @@ Build an interactive algorithm-learning app that helps us:
 	- Generate random arrays
 	- Animate comparisons and swaps
 	- Highlight sorted portion/progress
+- ✅ Stack (LIFO visualiser)
+     - Add or remove random elements(Push/Pop)
+	 - Animate boxes stacking upwards 
+	 - Real-time update showing the last value added or removed
+- ✅ Queue (FIFO visualiser)
+     - Add/Remove random elements(Enqueue/Dequeue)
+	 - Elements are added from the back and removed from the front
+	 - The first value is highligted to show which element is next
+	 -  Real-time update showing the last value added or removed
 
 ### In Progress Direction
 
@@ -56,8 +65,8 @@ We are expanding this project in phases so it remains clean and easy to learn fr
 
 ## Phase 4: Core Data Structures
 
-- ⏳ Stack
-- ⏳ Queue / Deque
+- ✅ Stack
+- ✅ Queue / Deque
 - ⏳ Linked List
 - ⏳ Hash Table basics
 - ⏳ Tree traversals
@@ -79,6 +88,14 @@ python pathfinding.py
 
 ```bash
 python sorting.py
+```
+
+```bash
+python queue_app.py
+```
+
+```bash
+python stack_app.py
 ```
 
 ## Notes
