@@ -33,6 +33,10 @@ Build an interactive algorithm-learning app that helps us:
 	 - Elements are added from the back and removed from the front
 	 - The first value is highligted to show which element is next
 	 -  Real-time update showing the last value added or removed
+-   ✅ Selection sort
+     - Generate random arrays
+	 - Compare each array and highlight the smallest
+	 - Sort each array from smallest to largest
 
 ### In Progress Direction
 
@@ -52,7 +56,7 @@ We are expanding this project in phases so it remains clean and easy to learn fr
 ## Phase 2: Sorting (Array Visualizer)
 
 - ✅ Bubble Sort
-- ⏳ Selection Sort
+- ✅ Selection Sort
 - ⏳ Insertion Sort
 - ⏳ Merge Sort
 - ⏳ Quick Sort
@@ -96,6 +100,9 @@ python queue_app.py
 
 ```bash
 python stack_app.py
+```
+```bash
+python selection_sort_app.py
 ```
 
 ## Notes
