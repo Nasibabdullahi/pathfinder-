@@ -35,8 +35,12 @@ Build an interactive algorithm-learning app that helps us:
 	 -  Real-time update showing the last value added or removed
 -   ✅ Selection sort
      - Generate random arrays
-	 - Compare each array and highlight the smallest
-	 - Sort each array from smallest to largest
+	 - Scan the whole array, compare each value and highlight the smallest value
+	 - Sort each value from smallest to largest
+-   ✅ Insertion sort
+     - Generate random arrays
+	 - Scan the next value to and compare to already scanned values
+	 - Move the value to its designated place 
 
 ### In Progress Direction
 
@@ -57,7 +61,7 @@ We are expanding this project in phases so it remains clean and easy to learn fr
 
 - ✅ Bubble Sort
 - ✅ Selection Sort
-- ⏳ Insertion Sort
+- ✅ Insertion Sort
 - ⏳ Merge Sort
 - ⏳ Quick Sort
 - ⏳ Heap Sort
@@ -103,6 +107,9 @@ python stack_app.py
 ```
 ```bash
 python selection_sort_app.py
+```
+```bash
+python insertion_sort_app.py
 ```
 
 ## Notes
